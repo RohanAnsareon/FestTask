@@ -1,9 +1,0 @@
-C:\Users\ansar\source\repos\FestTask\FestTask.Infrastructure\bin\Debug\netcoreapp3.1\FestTask.Infrastructure.deps.json
-C:\Users\ansar\source\repos\FestTask\FestTask.Infrastructure\bin\Debug\netcoreapp3.1\FestTask.Infrastructure.dll
-C:\Users\ansar\source\repos\FestTask\FestTask.Infrastructure\bin\Debug\netcoreapp3.1\FestTask.Infrastructure.pdb
-C:\Users\ansar\source\repos\FestTask\FestTask.Infrastructure\obj\Debug\netcoreapp3.1\FestTask.Infrastructure.csprojAssemblyReference.cache
-C:\Users\ansar\source\repos\FestTask\FestTask.Infrastructure\obj\Debug\netcoreapp3.1\FestTask.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\ansar\source\repos\FestTask\FestTask.Infrastructure\obj\Debug\netcoreapp3.1\FestTask.Infrastructure.AssemblyInfo.cs
-C:\Users\ansar\source\repos\FestTask\FestTask.Infrastructure\obj\Debug\netcoreapp3.1\FestTask.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\ansar\source\repos\FestTask\FestTask.Infrastructure\obj\Debug\netcoreapp3.1\FestTask.Infrastructure.dll
-C:\Users\ansar\source\repos\FestTask\FestTask.Infrastructure\obj\Debug\netcoreapp3.1\FestTask.Infrastructure.pdb

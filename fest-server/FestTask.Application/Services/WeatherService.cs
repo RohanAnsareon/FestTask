@@ -1,5 +1,6 @@
 ﻿using FestTask.Application.DTOs.Weather;
 using FestTask.Application.Enums;
+using FestTask.Application.Exceptions;
 using FestTask.Application.Services.Abstractions;
 using Newtonsoft.Json;
 using System.Net.Http;
@@ -20,8 +21,11 @@ namespace FestTask.Application.Services
         {
             var response = await _client.GetAsync($"weather?zip={zipCode}&units={units.ToStringName()}");
 
-            response.EnsureSuccessStatusCode();
-            
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new BadRequestException(ErrorCodes.BADREQUEST_API_RESPONSE, "No information was found for the entered data");
+            }
+
             var result = JsonConvert.DeserializeObject<GetWeatherApiResponse>(await response.Content.ReadAsStringAsync());
 
             return result;

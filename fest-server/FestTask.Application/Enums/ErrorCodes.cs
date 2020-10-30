@@ -6,6 +6,7 @@ namespace FestTask.Application.Enums
 {
     public enum ErrorCodes
     {
-        INVALID_ZIP_CODE
+        INVALID_ZIP_CODE,
+        BADREQUEST_API_RESPONSE
     }
 }

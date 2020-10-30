@@ -1,4 +1,6 @@
 ﻿using FestTask.Application.DTOs.TimeZone;
+using FestTask.Application.Enums;
+using FestTask.Application.Exceptions;
 using FestTask.Application.Services.Abstractions;
 using Newtonsoft.Json;
 using System;
@@ -22,7 +24,10 @@ namespace FestTask.Application.Services
         {
             var response = await _client.GetAsync($"?location={longitude},{latitude}&timestamp={timestamp}");
 
-            response.EnsureSuccessStatusCode();
+            if (!response.IsSuccessStatusCode)
+            {
+                throw new BadRequestException(ErrorCodes.BADREQUEST_API_RESPONSE, "No information was found for the entered data");
+            }
 
             var result = JsonConvert.DeserializeObject<GetTimeZoneResponse>(await response.Content.ReadAsStringAsync());
 
