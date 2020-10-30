@@ -1,0 +1,14 @@
+<div class="container">
+    <mat-form-field >
+        <mat-label>ZIP-Code</mat-label>
+        <input [(ngModel)]="zipCode" matInput >
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Units</mat-label>
+        <mat-select [(ngModel)]="units">
+          <mat-option value="metric">Metric</mat-option>
+          <mat-option value="imperial">Imperial</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button mat-stroked-button color="primary" (click)="getWeather()">Get Weather</button>
+</div>

@@ -1,0 +1,9 @@
+C:\Users\ansar\source\repos\FestTask\FestTask.Application\bin\Debug\netcoreapp3.1\FestTask.Application.deps.json
+C:\Users\ansar\source\repos\FestTask\FestTask.Application\bin\Debug\netcoreapp3.1\FestTask.Application.dll
+C:\Users\ansar\source\repos\FestTask\FestTask.Application\obj\Debug\netcoreapp3.1\FestTask.Application.AssemblyInfoInputs.cache
+C:\Users\ansar\source\repos\FestTask\FestTask.Application\obj\Debug\netcoreapp3.1\FestTask.Application.AssemblyInfo.cs
+C:\Users\ansar\source\repos\FestTask\FestTask.Application\obj\Debug\netcoreapp3.1\FestTask.Application.csprojAssemblyReference.cache
+C:\Users\ansar\source\repos\FestTask\FestTask.Application\obj\Debug\netcoreapp3.1\FestTask.Application.csproj.CoreCompileInputs.cache
+C:\Users\ansar\source\repos\FestTask\FestTask.Application\bin\Debug\netcoreapp3.1\FestTask.Application.pdb
+C:\Users\ansar\source\repos\FestTask\FestTask.Application\obj\Debug\netcoreapp3.1\FestTask.Application.dll
+C:\Users\ansar\source\repos\FestTask\FestTask.Application\obj\Debug\netcoreapp3.1\FestTask.Application.pdb
